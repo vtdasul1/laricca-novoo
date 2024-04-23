@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+    :root{
+        --lime: #00FF00;
+        --gray1: #a39797;
+        --DarkMagenta: #8B008B;
+        --Red: #FF0000;
+        --navajo: #FFDEAD;
+        --burly: #DEB887;
+        --white: #FFFFFF;
+        --cornsilk: #FFF8DC;
+        --wheat: #F5DEB3;
+        --blanched: #FFEBCD;
+    }
+
+     a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+   
+   .titulo2 {
+background-color: var(--navajo);
+text-align: center;
+font-family: "Raleway", cursive;
+color: var(--black);
+border-radius: 10px;
+margin: 25px;
+padding: 5px;
+font-family: "Sedan", cursive;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;;
+    list-style: none;
+}
+
+.topo-do-site {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+}
+.image-container {
+    width: 250px;
+}
+
+.topo-do-site img {
+    width: 150px;
+    max-height: auto;
+}
+
+
+/*Corpo*/
+
+.corpo {
+    background-color: var(--cornsilk);
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.imagem-container {
+max-width: 250px;
+border-radius: 40px;
+}
+
+.section-container {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+gap: 50px;
+text-align: center;
+}
+
+.product-price {
+    font-size: 20px;
+    color: var(--Red);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.divisao-container {
+   display: flex;
+    color: black;
+    flex-direction: column;
+   font-size: 30px;
+   text-align: center;
+   margin: 50px 0;
+}
+
+.caixa-container {
+width: 25%;
+text-align: center;
+font-size: 19px;
+margin-left: 130px;
+margin-bottom: 10px;
+}
+
+.butao {
+    width: 95px;
+    height: 30px; 
+    font-size: 15px;
+    margin-left: 125px;
+}
+
+/*cardápio | drinks*/
+.imagem-cardapio-container {
+width: 40%;
+border-radius: 100px;
+margin: 10px;
+
+}
+
+.comentario-menu {
+
+font-family: "Sedan", cursive;
+font-size: 30px;
+color: var(--Red);
+}
+
+.divisao-menu {
+    background-color: var(--blanched);
+}
+
+.comentario-menu-drink{
+    font-family: "Sedan", cursive;
+    font-size: 30px;
+}
+.menu-prato-container img {
+width: 250px;
+
+}
+
+.menu-prato-container {
+   
+    
+}
+
+
+
+.principal {
+    background-image: url(fundo-madeira1.jpg);
+    
+}
