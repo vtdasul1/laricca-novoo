@@ -1,63 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
     <meta name="description" content="Programador Front-End, Senai.">
     <meta name="keywords" content="HTML, CSS, JavaScript, Senai">
     <meta name="author" content="william araujo, francisco neto, vitor emanuel"> 
-    <title>Laricca || Página Inicial</title>
+    <title>Laricca || Petisco</title>
     <link rel="shortcut icon" href="banner-removebg-preview.icon.ico" type="image/x-icon">  
     <!--<link> cria um vinculo com um arquivo através do atributo href, e o atributo rel é o tripo de relação do arquivo-->
     <link href="css/style.css" rel="stylesheet">
     <!--<link> cria um vinculo com um arquivo através do atributo src-->
     <script src="js/script.js"></script>
-    </head>
-    <body class="corpo">
-     <!--Cabeçalho-->
+</head>
+
+<body class="corpo">
+        <!--Cabeçalho-->
     <header class="topo-do-site">
 
-            <!--titulo-->
-                    <a class="banner-container" href="index.html"><img src="img/banner.png" alt="banner"></a>
+        <!--titulo-->
+        <a href="index.html"><img src="img/banner.png"></a> 
+        <a class="sacola" href="index.html"><img src="img/bolsa-de-compras.png"></a>    
+    </header>
 
-            <!--Navegação-->
-        <nav class="navegacao-topo-site">
+    <div class="link-header">
+            
+        <li class="lista">
+            <a href="index.html"><img src="img/botao-de-inicio.png"></a>
+            <div class="stronger">
+                <strong>Home</strong>
+            </div>
+        </li>
+     
+        <li class="lista">
+                <a href="prato.html"><img src="img/prato.png"></a>
+            <div class="stronger">
+                <strong>Pratos</strong>
+            </div>
+        </li>
+    
+        <li class="lista">
+            <a href="drinks.html"><img src="img/espeto.png"></a>
+            <div class="stronger">
+                <strong>Drinks</strong>
+            </div>
+        </li>
 
-            <!--Menu-->
-            <ul class="menu-container">
+        <li>
+            <a href="sobremesa.html"><img src="img/iogurte-congelado.png" alt="sobremesa"></a>
+            <div class="stronger">
+                 <strong>Sobremesas</strong>
+            </div>
+        </li>
+              
+    </div>  
 
-                    <!--lista-->
-                <li class="lista">
-                <a href="drinks.html"><strong>Drinks</strong></a> 
-                </li>
+    <!--Principal-->
+    <main class="principal">
+         <hr>
+        <!--titulo 2-->
+        <h2 class="titulodrink"><strong class="drink-list">Menu de Petiscos</strong></h2>
 
-                <li class="lista">
-                <a href="prato.html"><strong>Pratos</strong></a>
-                </li>
+        <!--PRIMEIRA SESSÃO-->
+        <section class="menu-container">
+    
+            <!--imagem 1-->
+            <h2 class="titulo3"> <strong >Bolinho de carne moída com queijo</strong></h2>
+            <div class="div-container">
+                <img src="img/bolinho-de-carne-moida-com-queijo.webp" alt="rainbow">
+                <strong   class="descricao-menu"></strong>
+            </div>
 
-                <li class="lista">
-                <a href="petiscos.html"><strong>Petiscos</strong></a>
-                </li>
+            <div class="button-input">
+                <input class="input"  value="" type="number" min="0">
+                <button class="botao"  type="button" value="adicionar">Adicionar</button>
+            </div>
 
-                <li class="lista">
-                    <a href="carrinho.html"><strong>Carrinho</strong></a>
-                </li>
+            <!--imagem 2-->
+            <h2 class="titulo3"> <strong >Batata Frita</strong></h2>
+            <div class="div-container">
+                <img src="img/batata-frita.jpeg" alt="batata-frita">
+                <strong   class="descricao-menu"></strong>
+            </div>
 
-            </ul>
-        </nav>
-    </header>  
+            <div class="button-input">
+                <input class="input"  value="" type="number" min="0">
+                <button class="botao"  type="button" value="adicionar">Adicionar</button>
+            </div>
+                
+            <!--imagem 3-->
+            <h2 class="titulo3"><strong>Bolinho de mandioca com carne-seca</strong></h2>
+            <div class="div-container">
+                <img src="img/bolinho-de-mandioca-com-carne-seca-capa.webp" alt="suco-de-beterraba-sessao2">
+                <strong   class="descricao-menu"></strong>
+            </div>
+                        
+            <p class="ingredientes"></strong>
+            <div class="button-input">
+                <input class="input"  value="" type="number" min="0">
+                <button class="botao"  type="button" value="adicionar">Adicionar</button>
+            </div>
+
+            <!--imagem 4-->
+            <h2 class="titulo3"> <strong >Ovos de codorna</strong></h2>
+            <div class="div-container">
+                <img src="img/ovos-de-codorna-temperados.webp" alt="suco">
+                <strong   class="descricao-menu"></strong>
+            </div>
+            <div class="button-input">
+                <input class="input"  value="" type="number" min="0">
+                <button class="botao"  type="button" value="adicionar">Adicionar</button>
+            </div>
+                
+            <!--imagem 5-->
+            <h2 class="titulo3"> <strong >Mandioca frita</strong></h2>
+            <div class="div-container">
+                <img src="img/mandioca-frita-capa.webp  " alt="smoothie-vermelho">
+                <strong   class="descricao-menu"></strong>
+            </div>
+            <div class="button-input">
+                <input class="input"  value="" type="number" min="0">
+                <button class="botao"  type="button" value="adicionar">Adicionar</button>
+            </div>             
+        </section>
+
+    </main>    
+
+</body>
+    <!--rodapé-->
+<footer class="rodape">
 
 
-    <body>
 
-
-
-        <main>
-
-            <img class="imagem-container" src="img/batata-chips.webp" alt="">
-        
-
-        </main>
-    </body>
 </html>
